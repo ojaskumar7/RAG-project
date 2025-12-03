@@ -11,16 +11,5 @@ It ingests documents, chunks them, embeds them using Gemini embeddings, stores t
 
 ---
 
-Folder Structure
-.
-├── .env
-├── chains.py
-├── data_ingestion.py
-├── embeddings.py
-├── exception.py
-├── logger.py
-├── storing_data.py
-├── __init__.py
-└── requirements.txt
 
 
