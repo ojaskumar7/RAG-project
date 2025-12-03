@@ -18,7 +18,7 @@ def main():
     st.title("RAG ingestion (Gemini + LangChain)")
 
     uploaded_dir = st.text_input("Local directory with docs (leave blank to skip)", value="Data")
-    url = st.text_input("Optional URL to ingest", value="https://callofduty.fandom.com/wiki/Call_of_Duty:_Mobile")
+    url = st.text_input("Optional URL to ingest", value="https://wiki.archlinux.org/title/Installation_guide")
     index_name = st.text_input("Pinecone index name", value="aibot-gemini")
     chunk_size = st.number_input("Chunk size (words)", value=500, step=50)
     chunk_overlap = st.number_input("Chunk overlap (words)", value=50, step=10)
